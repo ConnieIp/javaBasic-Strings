@@ -16,10 +16,16 @@ Each repository contains a gradle java project with a number of unit tests. The 
 The 4 questions are:
 
 1. What is the knowledge point of the test? Where is the offical document to the knowledge point?
-1. Why the test failed at first?
-1. Why you corrected the test that way?
-1. Do you have further questions on this knowledge point?
-
+   Learn to use testcase to check whether result are correct.
+   Learn about String.
+   https://docs.oracle.com/javase/7/docs/api/java/lang/String.html
+2. Why the test failed at first?
+  The test are failed at first because expected result is not match with actual result.
+  Expected result have wrong value.
+3. Why you corrected the test that way?
+  I correct the expected result to use another method of Java String to match with the actual result to make the test pass.
+4. Do you have further questions on this knowledge point?
+    No.
 ## Example
 
 Let's take a look at an example:
